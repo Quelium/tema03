@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<minecraftItems lang="ca">
+<item>
+<id>1</id>
+ <name>Espasa de madera</name>
+ <type>Arma</type>
+ <rarity>comú</rarity>
+ <damage>Dany</damage>
+ <description>Arma cos a cos per a fer mal </description>
+ </item>
+ <item>
+<id>2</id>
+ <name>bloc de </name>
+ <type>bloc de madera de roure fosc</type>
+ <rarity>comú</rarity>
+ <damage>construcció</damage>
+ <description>serveig per a construir</description>
+ </item>
+ <item>
+<id>3</id>
+ <name>Aixada de netherite</name>
+ <type>Ferramenta</type>
+ <rarity>Èpic</rarity>
+ <damage>Utilitat</damage>
+ <description>Llaurar la terra</description>
+ </item>
+ <item>
+<id>4</id>
+ <name>panell de cristall</name>
+ <type>bloc</type>
+ <rarity>comú</rarity>
+ <damage>res</damage>
+ <description>es un bloc transparent</description>
+ </item>
+ <item>
+<id>5</id>
+ <name>bloc de obsidiana</name>
+ <type>bloc</type>
+ <rarity>raro</rarity>
+ <damage>res</damage>
+ <description>Molt resistent, casi indestructible</description>
+ </item>
+ <!-- Añadir más ítems -->
+</minecraftItems>
