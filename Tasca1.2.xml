@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <minecraftItems lang="ca">
+        <item>
+            <id>1</id>
+            <name>Espasa de madera</name>
+            <type>Arma</type>
+            <rarity>comú</rarity>
+            <damage>Dany</damage>
+            <description>Arma cos a cos per a fer mal </description>
+            <crafteable>si</crafteable>
+            <materials>
+                <material>bloc de madera_qualsevol</material>
+                <material>pal</material>
+            </materials>
+            <enchantable>si</enchantable>
+            <enchantments>
+                <enchantment>Reparació amb l'experiència</enchantment>
+                <enchantment>Espenta II</enchantment>
+            </enchantments>
+        </item>
+        <item>
+            <id>2</id>
+            <name>bloc de madera de roure fosca</name>
+            <type>bloc de construcció</type>
+            <rarity>comú</rarity>
+            <damage>construcció</damage>
+            <description>serveig per a construir</description>
+            <crafteable>si</crafteable>
+            <materials>
+                <material>bloc de tronc de roure fosc</material>
+            </materials>
+            <enchantable>no</enchantable>
+        </item>
+        <item>
+            <id>3</id>
+            <name>Aixada de netherite</name>
+            <type>Ferramenta</type>
+            <rarity>Èpic</rarity>
+            <damage>Utilitat</damage>
+            <description>Llaurar la terra</description>
+            <crafteable>si</crafteable>
+            <materials>
+                <material>netherite</material>
+                <material>pal</material>
+            </materials>
+            <enchantable>si</enchantable>
+            <enchantments>
+                <enchantment>Reparació amb l'experiència</enchantment>
+                <enchantment>Durabilitat III</enchantment>
+            </enchantments>
+        </item>
+        <item>
+            <id>4</id>
+            <name>panell de cristall</name>
+            <type>bloc</type>
+            <rarity>comú</rarity>
+            <damage>res</damage>
+            <description>es un bloc transparent</description>
+            <crafteable>si</crafteable>
+            <materials>
+                <material>bloc de Vidre</material>
+            </materials>
+            <enchantable>no</enchantable>
+        </item>
+        <item>
+            <id>5</id>
+            <name>bloc de obsidiana</name>
+            <type>bloc de construcció</type>
+            <rarity>raro</rarity>
+            <damage>res</damage>
+            <description>Molt resistent, casi indestructible</description>
+            <crafteable>no</crafteable>
+            <enchantable>no</enchantable>
+        </item>
+        <item>
+            <id>6</id>
+            <name>pic de ferro</name>
+            <type>Ferramenta</type>
+            <rarity>comú</rarity>
+            <damage>Dany</damage>
+            <description>Ferramenta per a picar</description>
+            <crafteable>si</crafteable>
+            <materials>
+                <material>pals i ferro fundit</material>
+            </materials>
+            <enchantable>si</enchantable>
+                <enchantment>toc de seda</enchantment>
+                <enchantment>Fortuna III</enchantment>
+        </item>
+    </minecraftItems>
