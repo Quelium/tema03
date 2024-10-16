@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <cursASIX lang="ca">
+        <alumne nia="19983020">
+            <nom> Miquel </nom>
+            <cognoms>
+                <Cognom1> Fornés </Cognom1>
+                <Cognom2> Cardona </Cognom2>
+            </cognoms>
+            <moduls>
+                <modul1> 
+                    <nom> Xarxes </nom>
+                    <nota> 10 </nota>
+                </modul1>
+                <modul2> 
+                    <nom> Maquinari </nom>
+                    <nota> 8 </nota>
+                </modul2>
+                <modul3>
+                    <nom> Fol </nom>
+                    <nota> 5 </nota>
+                </modul3>
+                <modul4>
+                    <nom> Anglés </nom>
+                    <nota> 3 </nota>
+                </modul4>
+                <modul5>
+                    <nom> Dades </nom>
+                    <nota> 4 </nota>
+                </modul5>
+                <modul6>
+                    <nom> XML </nom>
+                    <nota> 6 </nota>
+                </modul6>
+                <modul7>
+                    <nom> S.O. </nom>
+                    <nota> 6 </nota>
+                </modul7>
+            </moduls>
+        </alumne>
