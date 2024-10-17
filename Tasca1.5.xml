@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <curriculum_vitae lang="ca">
+        <identificacio>
+            <nom> Miquel </nom>
+            <cognom1> Fornés </cognom1>
+            <cognom2> Cardona </cognom2>
+            <ubicacio> Xàbia 03730 carrer furs del llobregat no 669 </ubicacio>
+            <telefon> 000 000 000 </telefon>
+        </identificacio>
+        <estudis>
+            <grau1> Mitja de Telecomunacións </grau1>
+            <grau2> ASIX... </grau2>
+        </estudis>
+        <idiomes>
+            <idioma1> Valencià Natiu </idioma1>
+            <idioma2> Español Nativo </idioma2>
+        </idiomes>
+        <caracteristiques_propies>
+            <caracteristica1> Treballe en equip </caracteristica1>
+            <caracteristica2> Puntual </caracteristica2>
+            <caracteristica3> roí en moments d'estrés "no pot ser tot bó" </caracteristica3>
+        </caracteristiques_propies>
+        <experiencies>
+            <experiencia1> Vaig fer pràctiques en "insertar empresa" del 10/V/2014 fins al 13/X/2015 de "insertar ofici" </experiencia1>
+            <experiencia2> He treballat de "informatic per a posar un exemple" en "insertar empresa" del 16/IV/2018 fins al 28/VIII/2020  </experiencia2>
+        </experiencies>
+    </curriculum_vitae>
