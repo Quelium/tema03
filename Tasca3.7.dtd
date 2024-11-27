@@ -1,0 +1,30 @@
+<!ELEMENT Factures (Factura+)>
+
+<!ELEMENT Factura (Nombre, Data, Client, Productes, Resum)>
+<!ATTLIST Factura
+    id ID #REQUIRED>
+
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Data (#PCDATA)>
+
+<!ELEMENT Client (DNI, Nom, Direccio)>
+<!ELEMENT DNI (#PCDATA)>
+<!ELEMENT Nom (#PCDATA)>
+<!ELEMENT Direccio (Carrer, Codi_postal, Poblacio)>
+<!ELEMENT Carrer (#PCDATA)>
+<!ELEMENT Codi_postal (#PCDATA)>
+<!ELEMENT Poblacio (#PCDATA)>
+
+<!ELEMENT Productes (Producte+)>
+<!ELEMENT Producte (codi, Quantitat, Descripcio, Preu_unitat, IVA)>
+<!ELEMENT Codi (#PCDATA)>
+<!ELEMENT Quantitat (#PCDATA)>
+<!ELEMENT Descripcio (#PCDATA)>
+<!ELEMENT Preu_unitat (#PCDATA)>
+<!ELEMENT IVA (#PCDATA)>
+
+<!ELEMENT Resum (Forma_pagament, Descompte?)>
+<!ELEMENT Forma_pagament (#PCDATA)>
+<!ATTLIST Forma_pagament
+    tipus (Efectiu|Targeta|Xec|Transferencia) #REQUIRED>
+<!ELEMENT Descompte (#PCDATA)>
