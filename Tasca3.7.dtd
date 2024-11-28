@@ -1,5 +1,6 @@
 <!ELEMENT Factures (Factura+)>
-
+<!ATTLIST Factures
+            lang CDATA #FIXED "ca">
 <!ELEMENT Factura (Nombre, Data, Client, Productes, Resum)>
 <!ATTLIST Factura
     id ID #REQUIRED>
@@ -16,7 +17,7 @@
 <!ELEMENT Poblacio (#PCDATA)>
 
 <!ELEMENT Productes (Producte+)>
-<!ELEMENT Producte (codi, Quantitat, Descripcio, Preu_unitat, IVA)>
+<!ELEMENT Producte (Codi, Quantitat, Descripcio, Preu_unitat, IVA)>
 <!ELEMENT Codi (#PCDATA)>
 <!ELEMENT Quantitat (#PCDATA)>
 <!ELEMENT Descripcio (#PCDATA)>

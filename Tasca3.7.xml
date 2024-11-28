@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Factures SYSTEM "Tasca3.7.dtd">
+<Factures lang="ca">
+    <Factura id="F00001">
+        <Nombre>12345678</Nombre>
+        <Data>XXXX-XX-XX</Data>
+        <Client>
+            <DNI>00000000X</DNI>
+            <Nom>Bartolomeu Gustau Primer</Nom>
+            <Direccio>
+                <Carrer>Carrer Raimon</Carrer>
+                <Codi_postal>03730</Codi_postal>
+                <Poblacio>Xabia_senseaccentputavida</Poblacio>
+            </Direccio>
+        </Client>
+        <Productes>
+            <Producte>
+                <Codi>P0001</Codi>
+                <Quantitat>18</Quantitat>
+                <Descripcio>Anxoves enllatades</Descripcio>
+                <Preu_unitat>2'00€</Preu_unitat>
+                <IVA>21%</IVA>
+            </Producte>
+            <Producte>
+                <Codi>P0002</Codi>
+                <Quantitat>1</Quantitat>
+                <Descripcio>Llet en brick</Descripcio>
+                <Preu_unitat>0'75€</Preu_unitat>
+                <IVA>5%</IVA>
+            </Producte>
+            <Producte>
+                <Codi>P0003</Codi>
+                <Quantitat>3</Quantitat>
+                <Descripcio>Chupachups</Descripcio>
+                <Preu_unitat>0'30€</Preu_unitat>
+                <IVA>10%</IVA>
+            </Producte>
+        </Productes>
+        <Resum>
+            <Forma_pagament tipus="Targeta">Targeta</Forma_pagament>
+            <Descompte>Cap</Descompte>
+        </Resum>
+    </Factura>
+    <Factura id="F00002">
+        <Nombre>87654321</Nombre>
+        <Data>YYYY-YY-YY</Data>
+        <Client>
+            <DNI>11111111Y</DNI>
+            <Nom>B. Toven</Nom>
+            <Direccio>
+                <Carrer>Carrer chop_in</Carrer>
+                <Codi_postal>03740</Codi_postal>
+                <Poblacio>Gata del Gord Gos</Poblacio>
+            </Direccio>
+        </Client>
+        <Productes>
+            <Producte>
+                <Codi>P0234</Codi>
+                <Quantitat>8</Quantitat>
+                <Descripcio>Or Xata</Descripcio>
+                <Preu_unitat>1'50€</Preu_unitat>
+                <IVA>21%</IVA>
+            </Producte>
+            <Producte>
+                <Codi>P0066</Codi>
+                <Quantitat>1</Quantitat>
+                <Descripcio>Con - sola -door</Descripcio>
+                <Preu_unitat>4'00€</Preu_unitat>
+                <IVA>69%</IVA>
+            </Producte>
+            <Producte>
+                <Codi>P0080</Codi>
+                <Quantitat>3</Quantitat>
+                <Descripcio>P. setes res</Descripcio>
+                <Preu_unitat>4'00€</Preu_unitat>
+                <IVA>199%</IVA>
+            </Producte>
+        </Productes>
+        <Resum>
+            <Forma_pagament tipus="Xec">Xec</Forma_pagament>
+        </Resum>
+    </Factura>
+</Factures>
